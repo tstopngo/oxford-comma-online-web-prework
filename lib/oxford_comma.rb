@@ -2,7 +2,7 @@ def oxford_comma(array)
   if array.length == 1
     puts array
   elsif array.length == 2
-    last_item ="and " + array.pop
+    last_item =" and " + array.pop
     array.push(last_item)
     array.join
   else
